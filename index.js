@@ -28,8 +28,7 @@ const HIGH_TEMPERATURES = {
     tomorrow: 32,
   };
 
-const {yesterday, today, tomorrow} = HIGH_TEMPERATURES;
-const [maximaHoy, maximaManana] = [today, tomorrow]
+const {today: maximaHoy, tomorrow: maximaManana} = HIGH_TEMPERATURES;
 
 // Ejercicio 5
 
